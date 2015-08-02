@@ -2,17 +2,18 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:buttonStyle">@style/LoginBtn</item>
+
     </style>
 
     <style name="LoginBtn" parent="@android:style/Widget.Button">
         <item name="android:background">@drawable/login_btn</item>
-        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginRight">5dp</item>
     </style>
 
     <style name="PasswordBtn" parent="@android:style/Widget.Button">
         <item name="android:background">@drawable/password_btn</item>
-        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
     </style>
+
 
 </resources>
